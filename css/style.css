@@ -1,0 +1,124 @@
+
+
+
+
+body {
+font-family: "Verdana", sans-serif;
+background-color: white;}
+
+
+nav ul {padding: 0px;
+	margin: 0px;
+}
+
+nav ul li {
+display: inline-block;
+padding: 10px;
+}
+
+
+
+
+
+header {
+padding: 3em 3em 0px 3em;
+text-align: center;
+background-color:
+#DE6D26; }
+
+
+nav ul li a {
+color:white;
+text-decoration: none;}
+
+
+
+
+
+
+
+
+nav ul li a:hover {
+text-decoration: none;
+color:black;
+transition: 0.5s;
+
+}
+ 
+nav ul li.active a {
+	background-color: white;
+color: #DE6D26;
+padding: 6px;
+ border-radius: 25px;
+}
+
+
+
+h1 {text-align: center;
+padding-bottom: 0px;
+font-size: 50px;}
+
+h3 {font-size: 20px;
+font-weight: bold;
+margin-bottom: 0.5px;
+}
+
+section {
+padding: 2em;
+margin-left: auto;
+margin-right: auto;
+width:90%;
+text-align: left;
+}
+
+
+
+
+
+
+
+
+.col-xl {padding: 3em;}
+
+p {margin-top: 2em;}
+
+
+footer {
+background-color: #DE6D26;
+padding: 3em 3em 0px 3em;
+text-align: center;
+
+ }
+
+
+ footer a {
+ 	color: black;}
+
+ 	footer a:hover {color:white;
+ 		transition: 0.5s;}
+
+
+
+ 		/* For desktop: */
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+
+@media only screen and (max-width: 768px) {
+  /* For mobile phones: */
+  [class*="col-"] {
+    width: 100%;
+  }
+}
+
+
+
