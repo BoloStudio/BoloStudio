@@ -55,33 +55,22 @@ display: inline-block;
 padding: 10px;
 }
 
-
-
-
-
 header {
 padding: 3em 3em 0px 3em;
 text-align: center;
 background-color:
-#DE6D26; }
-
+#DE6D26; 
+}
 
 nav ul li a {
 color:white;
-text-decoration: none;}
-
-
-
-
-
-
-
+text-decoration: none;
+}
 
 nav ul li a:hover {
 text-decoration: none;
 color:black;
 transition: 0.5s;
-
 }
  
 nav ul li.active a {
@@ -91,11 +80,10 @@ padding: 6px;
  border-radius: 25px;
 }
 
-
-
 h1 {text-align: center;
 padding-bottom: 0px;
-font-size: 50px;}
+font-size: 50px;
+}
 
 h3 {font-size: 20px;
 font-weight: bold;
@@ -126,19 +114,72 @@ footer {
 background-color: #DE6D26;
 padding: 3em 3em 0px 3em;
 text-align: center;
-
  }
 
 
  footer a {
- 	color: black;}
+ 	color: black;
+ }
 
  	footer a:hover {color:white;
- 		transition: 0.5s;}
+ 	transition: 0.5s;
+ }
 
+/*grid*/
 
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  grid-gap: 1em;
+}
 
+/* hover styles */
+.location-listing {
+  position: relative;
+}
 
+.location-image {
+  line-height: 0;
+  overflow: hidden;
+}
 
+.location-image img {
+  filter: blur(0px);
+  transition: filter 0.3s ease-in;
+  transform: scale(1.1);
+}
+
+.location-title {
+  font-size: 1.5em;
+  font-weight: bold;
+  text-decoration: none;
+  z-index: 1;
+  position: absolute;
+  height: 100%;
+  width: 91%;
+  top: 0;
+  left: 0;
+  opacity: 0;
+  transition: opacity .5s;
+  background: rgba(90,0,10,0.4);
+  color: white;
+  text-align: center;
+
+  /* position the text in t’ middle*/
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.location-title:hover {text-decoration: none;
+color: white;}
+
+.location-listing:hover .location-title {
+  opacity: 1;
+}
+
+.location-listing:hover .location-image img {
+  filter: blur(2px);
+}
 
 
