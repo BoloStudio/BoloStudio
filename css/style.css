@@ -109,7 +109,7 @@ p {margin-top: 2em;
 a {color: #DE6D26;
 }
 
- a:visited {
+ p a:visited {
 	color: #DE6D26;
 }
 
