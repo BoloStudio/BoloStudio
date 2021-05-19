@@ -98,16 +98,18 @@ width:90%;
 text-align: left;
 }
 
-
-
-
-
-
+.grid-container {margin-left: 2em;}
 
 
 .col-xl {padding: 3em;}
 
-p {margin-top: 2em;}
+p {margin-top: 2em;
+}
+
+
+p a:visited {
+	color: #DE6D26;
+}
 
 
 footer {
@@ -156,7 +158,7 @@ text-align: center;
   z-index: 1;
   position: absolute;
   height: 100%;
-  width: 91%;
+  width: 92%;
   top: 0;
   left: 0;
   opacity: 0;
