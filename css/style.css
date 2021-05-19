@@ -106,6 +106,8 @@ text-align: left;
 p {margin-top: 2em;
 }
 
+p a {color: #DE6D26}
+
 p a:hover {color: #DE6D26;
 }
 
