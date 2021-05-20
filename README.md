@@ -1,4 +1,4 @@
-Questo è <**BoloStudio**
+Questo è **BoloStudio**
 
 Realizzato da:
 Annamaria Nicastri
