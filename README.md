@@ -1,4 +1,8 @@
-### Hi there 👋
+Questo è <**BoloStudio**
+
+Realizzato da:
+Annamaria Nicastri
+Rachele Gasparretti
 
 <!--
 **BoloStudio/BoloStudio** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
